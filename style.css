@@ -1,0 +1,33 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Table layout */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+th, td {
+  padding: 8px;
+  border: none; /* no lines, like the example */
+}
+
+/* Table 1 */
+table:nth-of-type(1) th { background-color: #4e73df; color: white; }
+table:nth-of-type(1) td:nth-child(1) { background-color: #dbe4ff; }
+table:nth-of-type(1) td:nth-child(2) { background-color: #ffe5ec; }
+table:nth-of-type(1) td:nth-child(3) { background-color: #e2f0cb; }
+table:nth-of-type(1) td:nth-child(4) { background-color: #fce5cd; }
+table:nth-of-type(1) td:nth-child(5) { background-color: #f3e5f5; }
+
+/* Table 2 */
+table:nth-of-type(2) th { background-color: #ff7043; color: white; }
+table:nth-of-type(2) td:nth-child(1) { background-color: #fff3e0; }
+table:nth-of-type(2) td:nth-child(2) { background-color: #e8f5e9; }
+table:nth-of-type(2) td:nth-child(3) { background-color: #e3f2fd; }
+table:nth-of-type(2) td:nth-child(4) { background-color: #fce4ec; }
+table:nth-of-type(2) td:nth-child(5) { background-color: #f9fbe7; }
